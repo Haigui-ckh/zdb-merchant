@@ -1,0 +1,29 @@
+@import './normalize.css';
+
+
+/*全局CSS变量*/
+:root {
+     --color-text: #666; /*文字颜色 */
+    --color-high-text: #ff5777;     /*文字高亮颜色 */
+    --color-tint: #ff8198;          
+    --color-background: #fff;
+    --color-theme:orange;
+    --font-size: 14px;
+}
+
+
+/* 公共样式 */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: white;
+}
